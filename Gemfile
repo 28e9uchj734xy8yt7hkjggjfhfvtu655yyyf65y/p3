@@ -60,3 +60,20 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+
+# additional
+#rails generate devise:install
+gem 'devise'
+
+#erb2slim app/views/devise -d
+gem 'html2slim'
+
+#Import Bootstrap styles in app/assets/stylesheets/application.scss:
+#Custom bootstrap variables must be set or imported *before* bootstrap.
+#@import "bootstrap";
+gem 'bootstrap', '~> 4.1.1'
+
+gem 'jquery-rails'
+gem 'slim-rails'
+gem 'rails_layout', github: 'arissetyawan-ruby/rails_layout.git' 
