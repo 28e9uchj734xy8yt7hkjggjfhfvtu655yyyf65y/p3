@@ -76,4 +76,3 @@ gem 'bootstrap', '~> 4.1.1'
 
 gem 'jquery-rails'
 gem 'slim-rails'
-gem 'rails_layout', github: 'arissetyawan-ruby/rails_layout.git' 
